@@ -1,0 +1,28 @@
+using namespace vex;
+
+extern brain Brain;
+extern digital_out test;
+extern brain Brain;
+extern motor hook1;
+extern motor Ring;
+extern pneumatics backpack1;
+extern controller Controller1;
+extern motor leftMotorA;
+extern motor leftMotorB;
+extern motor_group LeftDriveSmart;
+extern motor rightMotorA;
+extern motor rightMotorB;
+extern motor_group RightDriveSmart;
+extern motor_group AlldriveSmart;
+extern drivetrain Drivetrain;
+extern motor LeftmotorC;
+extern motor rightmotorC;
+extern motor Rightmotorthere;
+extern motor Lift1;
+extern motor Lift2;
+/**
+ * Used to initialize code/tasks/devices added using tools in VEXcode Pro.
+ *
+ * This should be called at the start of your int main function.
+ */
+void vexcodeInit(void);
